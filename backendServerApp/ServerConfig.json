@@ -1,0 +1,23 @@
+{
+    "Configs" : {
+        "AppPort-http": "7000",
+        "AppPort-https": "7001"
+    },
+    "TokenHandlerSecret":"ABCDEFGHIJKL",
+    "Logging": {
+        "LogLevel": {
+          "Default": "Information",
+          "Microsoft.AspNetCore": "Information",
+          "Microsoft": "Information" 
+
+        },
+        "EventLog": {
+          "SourceName": "QdasT",
+          "LogName": "Application",
+          "LogLevel": {
+            "Microsoft": "Trace",
+            "Microsoft.Hosting.Lifetime": "Trace"
+          }
+        }
+      }
+}
